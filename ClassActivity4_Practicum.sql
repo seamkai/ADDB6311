@@ -54,6 +54,8 @@ CREATE TABLE SALES
 
 SELECT * FROM Sales;
 
+--Perform an ETL - (Extract-Transform-Load) Data import from the Excel file to load your table data.
+
 --Question 2
 
 SELECT c.Cust_Fname||', '||c.Cust_Sname as Customer, r.Repair_Work, r.Repair_Date, r.Repair_Hours

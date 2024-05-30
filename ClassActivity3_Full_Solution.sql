@@ -89,7 +89,7 @@ CONSTRAINT FK_Driver_Driver_Deliveries FOREIGN KEY (Driver_ID) REFERENCES Driver
 CONSTRAINT FK_DI_Driver_Deliveries FOREIGN KEY (Delivery_Item_ID) REFERENCES Delivery_Items (Delivery_Item_ID)
 );
 
---Perform an ETL - Extract-Transform - Load Data import from the Excel file to load your table data.
+
 
 --Question 2 Insert Statements
 
